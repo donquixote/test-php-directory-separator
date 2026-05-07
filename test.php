@@ -9,6 +9,5 @@ var_export([
     '__DIR__' => __DIR__,
     'getcwd' => getcwd(),
     'realpath' => realpath(__DIR__ . '/..'),
-    tempnam(),
-    sys_get_temp_dir(),
+    'sys_get_temp_dir' => sys_get_temp_dir(),
 ]);
