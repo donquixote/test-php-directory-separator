@@ -7,7 +7,7 @@ var_export([
     'DIRECTORY_SEPARATOR' => DIRECTORY_SEPARATOR,
     '__FILE__' => __FILE__,
     '__DIR__' => __DIR__,
-    getcwd(),
+    'getcwd' => getcwd(),
     'realpath' => realpath(__DIR__ . '/..'),
     tempnam(),
     sys_get_temp_dir(),
